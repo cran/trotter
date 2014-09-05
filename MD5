@@ -1,0 +1,9 @@
+9ae74b20aa255058a30e414a824ecc5f *DESCRIPTION
+c03dc9566db168e70aeb2e6f460fc676 *NAMESPACE
+42f735093f0233541bd120173ec67c8c *R/trotter.R
+d67e07bcb7c062ab0a5df245ed8ff47e *man/cpv.Rd
+3243f23abe0457bbc473cc9e9a0015aa *man/length-CPV-method.Rd
+c41584fb733952b8f62f96a90f501517 *man/length-PPV-method.Rd
+606424f86d7a090f6d052947c787a3e0 *man/ppv.Rd
+a43407f3494ef81d2868be21d6850ebe *man/sub-CPV-method.Rd
+12fdb0c6f37e4a57fcc0488382675fb5 *man/sub-PPV-method.Rd
