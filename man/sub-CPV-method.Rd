@@ -2,14 +2,14 @@
 \docType{methods}
 \name{[,CPV-method}
 \alias{[,CPV-method}
-\title{Retrieving a Combination by Index}
+\title{Retrieve a Combination by Index}
 \usage{
 \S4method{[}{CPV}(x, i, j, drop)
 }
 \arguments{
 \item{x}{an instance of \code{CPV}.}
 
-\item{i}{an index specifying the position of the sought permutation.}
+\item{i}{an index specifying the position of the sought combination.}
 
 \item{j}{not used.}
 
@@ -27,6 +27,12 @@ stored in memory but calculated as needed. The extract method is used solely
 for interpretation.
 }
 \seealso{
-Combinations Pseudo-Vector \code{\link{cpv}}
+Permutations Pseudo-Vector \code{\link{ppv}}
+
+Amalgams Pseudo-Vector \code{\link{apv}}
+
+Selections Pseudo-Vector \code{\link{spv}}
+
+Subsets Pseudo-Vector \code{\link{sspv}}
 }
 

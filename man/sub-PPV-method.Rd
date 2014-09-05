@@ -2,7 +2,7 @@
 \docType{methods}
 \name{[,PPV-method}
 \alias{[,PPV-method}
-\title{Retrieving a Permutation by Index}
+\title{Retrieve a Permutation by Index}
 \usage{
 \S4method{[}{PPV}(x, i, j, drop)
 }
@@ -27,6 +27,12 @@ stored in memory but calculated as needed. The extract method is used solely
 for interpretation.
 }
 \seealso{
-Permutations Pseudo-Vector \code{\link{ppv}}
+Combinations Pseudo-Vector \code{\link{cpv}}
+
+Amalgams Pseudo-Vector \code{\link{apv}}
+
+Selections Pseudo-Vector \code{\link{spv}}
+
+Subsets Pseudo-Vector \code{\link{sspv}}
 }
 

@@ -3,14 +3,14 @@
 \alias{combination}
 \alias{combinations}
 \alias{cpv}
-\title{Combinations Pseudo-Vector}
+\title{Combinations Pseudo-Vector Constructor}
 \usage{
 cpv(k, items)
 }
 \arguments{
 \item{k}{the number of objects taken at a time.}
 
-\item{items}{a vector of objects to be permuted.}
+\item{items}{a vector of objects to be combined.}
 }
 \value{
 an instance of \code{CPV}.
@@ -49,5 +49,11 @@ Retrieved 13:24, September 5, 2014
 }
 \seealso{
 Permutations Pseudo-Vector \code{\link{ppv}}
+
+Amalgams Pseudo-Vector \code{\link{apv}}
+
+Selections Pseudo-Vector \code{\link{spv}}
+
+Subsets Pseudo-Vector \code{\link{sspv}}
 }
 
